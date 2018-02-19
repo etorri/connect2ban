@@ -1,0 +1,14 @@
+[Unit]
+Description=Thank You Ban Service
+Requires=thankyouban.socket
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/thankyou.sh %i
+StandardInput=socket
+StandardOutput=socket
+StandardError=journal
+TimeoutStopSec=5
+
+[Install]
+WantedBy=multi-user.target

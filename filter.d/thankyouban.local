@@ -1,0 +1,8 @@
+# fail2ban filter to put in /etc/fail2ban/filter.d
+
+# thankyouban: banthis 127.0.0.1
+#
+[Definition]
+failregex = thankyouban: banthis <HOST>
+
+	    

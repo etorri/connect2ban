@@ -1,0 +1,8 @@
+
+
+[thankyouban]
+enabled  = true
+bantime  = 86000
+filter   = thankyouban
+logpath  = /var/log/syslog
+maxretry = 0

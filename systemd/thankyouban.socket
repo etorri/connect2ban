@@ -1,0 +1,12 @@
+[Unit]
+Description=Thank You Ban sockets
+
+[Socket]
+ListenStream=0.0.0.0:23
+ListenStream=0.0.0.0:25
+ListenStream=0.0.0.0:443
+ListenStream=0.0.0.0:22
+Accept=yes
+
+[Install]
+WantedBy=sockets.target
